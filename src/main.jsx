@@ -4,16 +4,28 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Root from './Compunents/Root/Root'
 import Home from './Compunents/Home/Home'
+import AppliedJobs from './Compunents/AppliedJobs/AppliedJobs'
+import Bolgs from './Compunents/Bolgs/Bolgs'
+import ErroePage from './Compunents/ErroePage/ErroePage'
 
 
 const router = createBrowserRouter([{
 
   path: "/",
   element:<Root></Root>,
+  errorElement: <ErroePage></ErroePage>,
   children: [
     {
       path: "/",
       element: <Home></Home>
+    },
+    {
+      path: '/applid',
+      element: <AppliedJobs></AppliedJobs>
+    },
+    {
+      path: '/jobs',
+      element: <Bolgs></Bolgs>
     }
   ]
 
