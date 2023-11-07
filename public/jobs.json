@@ -1,7 +1,7 @@
 [
      {
       "id": 1,
-      "logo": "https://i.ibb.co/6wLTjV3/tesla.png",
+      "logo": " https://i.ibb.co/xqB90tP/google.png",
       "job_title": "Technical Database Engineer",
       "company_name": "Google LLC",
       "remote_or_onsite": "Remote",
@@ -77,7 +77,7 @@
       },
       {
         "id": 5,
-        "logo": "https://i.ibb.co/DgShv9c/netflix.png",
+        "logo": " https://i.ibb.co/6wLTjV3/tesla.png",
         "job_title": "Technical Database Engineer",
         "company_name": "Tesla",
         "remote_or_onsite": "Remote",
@@ -96,7 +96,7 @@
       },
       {
         "id": 6,
-        "logo": "https://i.ibb.co/xqB90tP/google.png",
+        "logo": "https://i.ibb.co/DgShv9c/netflix.png",
         "job_title": "Senior Product Designer",
         "company_name": "Netflix",
         "remote_or_onsite": "Remote",
