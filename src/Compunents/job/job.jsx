@@ -10,8 +10,8 @@ const Job = ({job}) => {
           <h2 className="card-title text-2xl text-slate-950 font-bold">{job_title}</h2>
           <h2 className="text-slate-950 font-bold">{company_name}</h2>
           <div className="">
-           <Link className="bg-zinc-600 p-2 rounded-lg font-bold mr-4">{remote_or_onsite}</Link>
-           <Link className="bg-zinc-600 p-2 rounded-lg font-bold ml-4">{job_type}</Link>
+           <Link className="bg-neutral-200 p-2 rounded-lg font-bold mr-4">{remote_or_onsite}</Link>
+           <Link className="bg-neutral-200 p-2 rounded-lg font-bold ml-4">{job_type}</Link>
           </div>
 
           <div className="flex">
