@@ -6,8 +6,11 @@ import Haeder from "../Haeder/Haeder";
 const Root = () => {
     return (
         <div>
+            <div className="max-w-6xl mx-auto">
+                
             <Haeder></Haeder>
             <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );
