@@ -21,7 +21,7 @@ const Job = ({job}) => {
             <p className="text-slate-950 font-bold flex"><img src={'https://i.ibb.co/6PVvw4Y/money.png '} alt="" />Salary: {salary}</p>
           </div>
           <div className="card-actions ">
-            <button className="btn btn-primary ">View Details</button>
+         <Link to={'.'}>   <button className="btn btn-primary ">View Details</button></Link>
           </div>
         </div>
       </div>
